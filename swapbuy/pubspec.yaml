@@ -1,0 +1,80 @@
+name: swapbuy
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  auto_size_text: null
+  cupertino_icons: ^1.0.8
+  dartz: null
+  dotted_border: 2.1.0
+  file_picker: ^10.2.0
+  flutter:
+    sdk: flutter
+  flutter_easyloading: ^3.0.5
+  flutter_launcher_icons: ^0.14.4
+  flutter_localizations:
+    sdk: flutter
+  flutter_rating: null
+  flutter_rating_bar: null
+  flutter_screenutil: ^5.9.3
+  flutter_svg: null
+  gap: null
+  http: null
+  image_picker: ^1.1.2
+  intl: null
+  loading_animation_widget: ^1.3.0
+  logger: ^2.5.0
+  material_symbols_icons: ^4.2805.1
+  multi_select_flutter: ^4.1.3
+  page_transition: ^2.1.0
+  path_provider: ^2.1.5
+  persistent_bottom_nav_bar: ^6.2.1
+  provider: ^6.1.1
+  rename: ^3.1.0
+  shared_preferences: null
+  top_snackbar_flutter: ^3.1.0
+  video_player: ^2.10.0
+  video_thumbnail: ^0.5.6
+  url_launcher: ^6.2.5
+  web_socket_channel: ^2.4.0
+  chewie: ^1.12.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/PNG/
+    - assets/SVG/
+    - assets/fonts/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_18pt-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Inter_18pt-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Inter_18pt-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter_18pt-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter_18pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_18pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_18pt-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter_18pt-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter_18pt-Black.ttf
+          weight: 900
